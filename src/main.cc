@@ -3,12 +3,13 @@
 #include <stdint.h>
 #include "utils.h"
 #include "generate_exp_decay_array.h"
+#include "xorrshiro128.h"
 
 static short shift_reg;
 
+static char STATE;
 
-
-short pn_sequence(short *sreg) {
+short PseudoRandomSequence(short *sreg) {
     short b2, b11, b15;
     short x1, x2; /* x2 also used for x */
     
@@ -29,37 +30,37 @@ short pn_sequence(short *sreg) {
 }
 
 int main() {
-    // short sreg = 0x1234; // Initial value of shift register
-    // for(int i=0;i<10;i++){
-    //     short result = pn_sequence(&sreg);
-    
-    //     printf("Generated %d\n", result);
-    // }
     // Parameters for the exponential decay signal
     UserInput user_input = {
         .sample_rate = 800e6,
-        .amplitude = 1.0,
+        .amplitude = 1.0, 
         .decay_constant = 1e-7,
         .simulation_time = 1e-3,
-        .num_samples = 1000,
+        .num_samples = 1024,
     };
 
     uint16_t signal_array[user_input.num_samples];
+    uint16_t random_array[user_input.num_samples];
+    char exp_path[] = "data/exp_decay.csv";
+    char random_path[] = "data/random.csv";
+    uint16_t seed = 12345;
     GenerateExpDecayArray(user_input, signal_array);
+    SaveSignal(user_input.num_samples, signal_array, exp_path);
+    //Seed(seed);
+    //GenerateRandomArray(user_input.num_samples, random_array);
+    //SaveSignal(random_array, random_path);
 
-    FILE *csv_file = fopen("exponential_signal.csv", "w");
-    if (csv_file == NULL) {
-        printf("Error opening file for writing.\n");
-        return 1;
-    }
 
-        for (int i = 0; i < user_input.num_samples; i++) {
-            fprintf(csv_file, "%u\n", signal_array[i]);
+    while(1){
+        switch (STATE)
+        {
+        case 0:
+            break;
+        
+        default:
+            break;
         }
-
-    fclose(csv_file);
-
-    printf("Signal saved to 'exponential_signal.csv'\n");
+    }
 
     return 0;
 }

@@ -222,6 +222,30 @@ src/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
+src/utils.o: src/utils.cc.o
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o
+.PHONY : src/utils.cc.o
+
+src/utils.i: src/utils.cc.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.i
+.PHONY : src/utils.cc.i
+
+src/utils.s: src/utils.cc.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.s
+.PHONY : src/utils.cc.s
+
 src/xorrshiro128.o: src/xorrshiro128.c.o
 .PHONY : src/xorrshiro128.o
 
@@ -265,6 +289,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 	@echo "... src/xorrshiro128.o"
 	@echo "... src/xorrshiro128.i"
 	@echo "... src/xorrshiro128.s"

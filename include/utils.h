@@ -1,5 +1,7 @@
 #ifndef NPG_UTILS_H_
 #define NPG_UTILS_H_
+#include <stdio.h>
+#include <stdint.h>
 
 
 typedef struct UserInput UserInput;
@@ -12,4 +14,6 @@ struct UserInput{
     int num_repetitions; 
 
 };
+int SaveSignal(int array_size, uint16_t signal_array[], char path[]);
+
 #endif

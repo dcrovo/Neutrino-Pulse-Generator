@@ -236,15 +236,6 @@ Neutrino-Pulse-Generator_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Neutrino-Pulse-Generator_SOURCE_DIR:STATIC=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator
 
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator
-
 
 ########################
 # INTERNAL cache entries
