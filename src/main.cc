@@ -33,10 +33,11 @@ int main() {
     // Parameters for the exponential decay signal
     UserInput user_input = {
         .sample_rate = 800e6,
-        .amplitude = 1.0, 
-        .decay_constant = 1e-7,
+        .amplitude = 1, 
+        .decay_constant = {9.40e-3, 2.72e-3, 45.0e-3, 0.38e-3},
         .simulation_time = 1e-3,
-        .num_samples = 1024,
+        .num_samples = 2048,
+        .time_step = (45.0e-3*10)/2048,
     };
 
     uint16_t signal_array[user_input.num_samples];
