@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-77d8480b380e6d0a814d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Neutrino-Pulse-Generator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Neutrino-Pulse-Generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Neutrino-Pulse-Generator-Debug-c1885bf17cfa7e68f9c1.json",
+					"name" : "Neutrino-Pulse-Generator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build",
+		"source" : "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

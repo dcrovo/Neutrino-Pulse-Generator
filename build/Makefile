@@ -174,29 +174,29 @@ Neutrino-Pulse-Generator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/build
 .PHONY : Neutrino-Pulse-Generator/fast
 
-src/generate_exp_decay_array.o: src/generate_exp_decay_array.cc.o
-.PHONY : src/generate_exp_decay_array.o
+src/lut.o: src/lut.cc.o
+.PHONY : src/lut.o
 
 # target to build an object file
-src/generate_exp_decay_array.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o
-.PHONY : src/generate_exp_decay_array.cc.o
+src/lut.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o
+.PHONY : src/lut.cc.o
 
-src/generate_exp_decay_array.i: src/generate_exp_decay_array.cc.i
-.PHONY : src/generate_exp_decay_array.i
+src/lut.i: src/lut.cc.i
+.PHONY : src/lut.i
 
 # target to preprocess a source file
-src/generate_exp_decay_array.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.i
-.PHONY : src/generate_exp_decay_array.cc.i
+src/lut.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.i
+.PHONY : src/lut.cc.i
 
-src/generate_exp_decay_array.s: src/generate_exp_decay_array.cc.s
-.PHONY : src/generate_exp_decay_array.s
+src/lut.s: src/lut.cc.s
+.PHONY : src/lut.s
 
 # target to generate assembly for a file
-src/generate_exp_decay_array.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.s
-.PHONY : src/generate_exp_decay_array.cc.s
+src/lut.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.s
+.PHONY : src/lut.cc.s
 
 src/main.o: src/main.cc.o
 .PHONY : src/main.o
@@ -283,9 +283,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Neutrino-Pulse-Generator"
-	@echo "... src/generate_exp_decay_array.o"
-	@echo "... src/generate_exp_decay_array.i"
-	@echo "... src/generate_exp_decay_array.s"
+	@echo "... src/lut.o"
+	@echo "... src/lut.i"
+	@echo "... src/lut.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

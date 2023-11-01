@@ -73,62 +73,62 @@ CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o: CMakeFiles/Neutrino-Pulse
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o: /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc > CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc > CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.i
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/main.cc -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.s
 
-CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/flags.make
-CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o: /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/generate_exp_decay_array.cc
-CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/generate_exp_decay_array.cc
+CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/flags.make
+CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o: /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/lut.cc
+CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/lut.cc
 
-CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/generate_exp_decay_array.cc > CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.i
+CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/lut.cc > CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.i
 
-CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/generate_exp_decay_array.cc -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.s
+CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/lut.cc -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.s
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o: CMakeFiles/Neutrino-Pulse-Generator.dir/flags.make
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o: /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o: CMakeFiles/Neutrino-Pulse-Generator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c > CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.i
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c > CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.i
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.s
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.s
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/flags.make
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o: /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o: CMakeFiles/Neutrino-Pulse-Generator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o -MF CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o.d -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc > CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc > CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.i
 
 CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.s
 
 # Object files for target Neutrino-Pulse-Generator
 Neutrino__Pulse__Generator_OBJECTS = \
 "CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o" \
-"CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o" \
+"CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o" \
 "CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o" \
 "CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o"
 
@@ -136,7 +136,7 @@ Neutrino__Pulse__Generator_OBJECTS = \
 Neutrino__Pulse__Generator_EXTERNAL_OBJECTS =
 
 Neutrino-Pulse-Generator: CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o
-Neutrino-Pulse-Generator: CMakeFiles/Neutrino-Pulse-Generator.dir/src/generate_exp_decay_array.cc.o
+Neutrino-Pulse-Generator: CMakeFiles/Neutrino-Pulse-Generator.dir/src/lut.cc.o
 Neutrino-Pulse-Generator: CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o
 Neutrino-Pulse-Generator: CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o
 Neutrino-Pulse-Generator: CMakeFiles/Neutrino-Pulse-Generator.dir/build.make
