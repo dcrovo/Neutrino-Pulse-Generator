@@ -13,9 +13,9 @@
 },
 {
   "directory": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build",
-  "command": "/usr/lib64/ccache/cc  -I/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/include -g -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c",
-  "file": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/xorrshiro128.c",
-  "output": "CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o"
+  "command": "/usr/lib64/ccache/c++  -I/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/include -g -std=gnu++17 -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/mmc.cc",
+  "file": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/mmc.cc",
+  "output": "CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.o"
 },
 {
   "directory": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build",

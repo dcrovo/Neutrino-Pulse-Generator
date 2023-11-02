@@ -222,6 +222,30 @@ src/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
+src/mmc.o: src/mmc.cc.o
+.PHONY : src/mmc.o
+
+# target to build an object file
+src/mmc.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.o
+.PHONY : src/mmc.cc.o
+
+src/mmc.i: src/mmc.cc.i
+.PHONY : src/mmc.i
+
+# target to preprocess a source file
+src/mmc.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.i
+.PHONY : src/mmc.cc.i
+
+src/mmc.s: src/mmc.cc.s
+.PHONY : src/mmc.s
+
+# target to generate assembly for a file
+src/mmc.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.s
+.PHONY : src/mmc.cc.s
+
 src/utils.o: src/utils.cc.o
 .PHONY : src/utils.o
 
@@ -246,30 +270,6 @@ src/utils.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.s
 .PHONY : src/utils.cc.s
 
-src/xorrshiro128.o: src/xorrshiro128.c.o
-.PHONY : src/xorrshiro128.o
-
-# target to build an object file
-src/xorrshiro128.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.o
-.PHONY : src/xorrshiro128.c.o
-
-src/xorrshiro128.i: src/xorrshiro128.c.i
-.PHONY : src/xorrshiro128.i
-
-# target to preprocess a source file
-src/xorrshiro128.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.i
-.PHONY : src/xorrshiro128.c.i
-
-src/xorrshiro128.s: src/xorrshiro128.c.s
-.PHONY : src/xorrshiro128.s
-
-# target to generate assembly for a file
-src/xorrshiro128.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/xorrshiro128.c.s
-.PHONY : src/xorrshiro128.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -289,12 +289,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mmc.o"
+	@echo "... src/mmc.i"
+	@echo "... src/mmc.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
-	@echo "... src/xorrshiro128.o"
-	@echo "... src/xorrshiro128.i"
-	@echo "... src/xorrshiro128.s"
 .PHONY : help
 
 

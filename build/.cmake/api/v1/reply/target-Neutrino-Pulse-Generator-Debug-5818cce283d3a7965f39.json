@@ -65,27 +65,8 @@
 			[
 				0,
 				1,
+				2,
 				3
-			]
-		},
-		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
-			"includes" : 
-			[
-				{
-					"backtrace" : 2,
-					"path" : "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/include"
-				}
-			],
-			"language" : "C",
-			"sourceIndexes" : 
-			[
-				2
 			]
 		}
 	],
@@ -141,8 +122,8 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 1,
-			"path" : "src/xorrshiro128.c",
+			"compileGroupIndex" : 0,
+			"path" : "src/mmc.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
