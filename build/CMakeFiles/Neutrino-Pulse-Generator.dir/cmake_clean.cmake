@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Neutrino-Pulse-Generator.dir/src/main.cc.o.d"
   "CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.o"
   "CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.o.d"
+  "CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.o"
+  "CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.o.d"
   "CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o"
   "CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o.d"
   "Neutrino-Pulse-Generator"

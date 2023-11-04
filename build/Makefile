@@ -246,6 +246,30 @@ src/mmc.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/mmc.cc.s
 .PHONY : src/mmc.cc.s
 
+src/squid.o: src/squid.cc.o
+.PHONY : src/squid.o
+
+# target to build an object file
+src/squid.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.o
+.PHONY : src/squid.cc.o
+
+src/squid.i: src/squid.cc.i
+.PHONY : src/squid.i
+
+# target to preprocess a source file
+src/squid.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.i
+.PHONY : src/squid.cc.i
+
+src/squid.s: src/squid.cc.s
+.PHONY : src/squid.s
+
+# target to generate assembly for a file
+src/squid.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Neutrino-Pulse-Generator.dir/build.make CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.s
+.PHONY : src/squid.cc.s
+
 src/utils.o: src/utils.cc.o
 .PHONY : src/utils.o
 
@@ -292,6 +316,9 @@ help:
 	@echo "... src/mmc.o"
 	@echo "... src/mmc.i"
 	@echo "... src/mmc.s"
+	@echo "... src/squid.o"
+	@echo "... src/squid.i"
+	@echo "... src/squid.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

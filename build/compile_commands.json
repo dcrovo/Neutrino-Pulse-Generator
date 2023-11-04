@@ -22,5 +22,11 @@
   "command": "/usr/lib64/ccache/c++  -I/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/include -g -std=gnu++17 -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc",
   "file": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/utils.cc",
   "output": "CMakeFiles/Neutrino-Pulse-Generator.dir/src/utils.cc.o"
+},
+{
+  "directory": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/include -g -std=gnu++17 -o CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.o -c /home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/squid.cc",
+  "file": "/home/danielcrovo/Documents/01.Study/01.MSc/01.Thesis/04.TG2/Semester/Neutrino-Pulse-Generator/src/squid.cc",
+  "output": "CMakeFiles/Neutrino-Pulse-Generator.dir/src/squid.cc.o"
 }
 ]
