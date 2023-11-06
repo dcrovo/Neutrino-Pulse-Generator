@@ -35,9 +35,10 @@ set(INCLUDES_DIR include)
 # Set the source files
 set(SOURCE 
     ${SOURCE_DIR}/main.cc 
-    ${SOURCE_DIR}/generate_exp_decay_array.cc 
-    ${SOURCE_DIR}/xorrshiro128.c
-    ${SOURCE_DIR}/utils.cc)
+    ${SOURCE_DIR}/lut.cc 
+    ${SOURCE_DIR}/mmc.cc
+    ${SOURCE_DIR}/utils.cc
+    ${SOURCE_DIR}/squid.cc)
 
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)

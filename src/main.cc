@@ -2,8 +2,8 @@
 #include <math.h>
 #include <stdint.h>
 #include "utils.h"
-#include "generate_exp_decay_array.h"
-#include "xorrshiro128.h"
+#include "lut.h"
+#include "mmc.h"
 
 static short shift_reg;
 
@@ -33,35 +33,41 @@ int main() {
     // Parameters for the exponential decay signal
     UserInput user_input = {
         .sample_rate = 800e6,
-        .amplitude = 1, 
-        .decay_constant = {9.40e-3, 2.72e-3, 45.0e-3, 0.38e-3},
+        .amplitude_lut = 1,
+        .amplitude = -1, 
+        .taus = {9.40e-3, 2.72e-3, 45.0e-3, 0.38e-3},
         .simulation_time = 1e-3,
         .num_samples = 2048,
-        .time_step = (45.0e-3*10)/2048,
+        .time_step = (45.0e-3*10)/4056,
+        .lut_tau = 1,
+        .random_noise_amplitude = 0.1,
+        .simulation_window = 1.0,
+        .activity = 5.0,
     };
 
-    uint16_t signal_array[user_input.num_samples];
-    uint16_t random_array[user_input.num_samples];
-    char exp_path[] = "data/exp_decay.csv";
-    char random_path[] = "data/random.csv";
+    Lut lut(user_input);
+    Mmc mmc1(user_input, lut);
+    char lut_path[] = "data/lut.csv";
+    char signal_path[] = "data/signal.csv";
     uint16_t seed = 12345;
-    GenerateExpDecayArray(user_input, signal_array);
-    SaveSignal(user_input.num_samples, signal_array, exp_path);
+
+    SaveSignal(lut.get_lut(), lut_path);
+    SaveSignal(mmc1.generate_pulses(), signal_path);
+
     //Seed(seed);
     //GenerateRandomArray(user_input.num_samples, random_array);
     //SaveSignal(random_array, random_path);
 
-
-    while(1){
-        switch (STATE)
-        {
-        case 0:
-            break;
+    // while(0){
+    //     switch (STATE)
+    //     {
+    //     case 0:
+    //         break;
         
-        default:
-            break;
-        }
-    }
+    //     default:
+    //         break;
+    //     }
+    // }
 
     return 0;
 }
