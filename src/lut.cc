@@ -26,7 +26,7 @@ void Lut::generate_lut() {
       sum += signal;
     }
 
-    this->lut.push_back(sum );
+    this->lut.push_back(sum);
     sum = 0;
   }
 }
@@ -59,12 +59,10 @@ int Lut::get_nsamples(void) { return this->num_samples; }
 double Lut::get_time_step(void) { return this->time_step; }
 double Lut::get_time_step_c(void) { return this->time_step_c; }
 std::vector<double> Lut::get_lut(void) { return this->lut; }
-std::vector<double> Lut::get_canonical_lut(void) {
-  return this->canonical_lut;
-}
+std::vector<double> Lut::get_canonical_lut(void) { return this->canonical_lut; }
 
 std::vector<double> Lut::generate_new_signal(double new_amplitude,
-                                               double new_tau) {
+                                             double new_tau) {
   // Generates a new signal from the cannonical LUT
   std::vector<double> new_signal;
 
@@ -88,15 +86,15 @@ std::vector<double> Lut::generate_new_signal(double new_amplitude,
       double interpolated_value =
           (1.0 - weight) * lut_value1 + weight * lut_value2;
       double new_signal_value = new_amplitude * interpolated_value;
-      new_signal.push_back(static_cast<uint16_t>(new_signal_value * 65535.0));
+      new_signal.push_back(new_signal_value);
     }
   }
 
   return new_signal;
 }
 
-std::vector<uint16_t> Lut::generate_new_signal(UserInput user_input) {
-  std::vector<uint16_t> new_signal;
+std::vector<double> Lut::generate_new_signal(UserInput user_input) {
+  std::vector<double> new_signal;
   auto largest_tau = *std::max_element(this->taus.begin(), this->taus.end());
 
   double time_step = (t_scaling_factor * largest_tau) / num_samples;
@@ -131,13 +129,13 @@ std::vector<uint16_t> Lut::generate_new_signal(UserInput user_input) {
   // double average_value = sum / 4.0;
   // new_signal.push_back(static_cast<uint16_t>(average_value * 65535.0));
   // }
-  std::vector<uint16_t> s1, s2, s3, s4;
+  std::vector<double> s1, s2, s3, s4;
   s1 = Lut::generate_new_signal(user_input.amplitude, user_input.taus[0]);
   s2 = Lut::generate_new_signal(user_input.amplitude, user_input.taus[1]);
   s3 = Lut::generate_new_signal(user_input.amplitude, user_input.taus[2]);
   s4 = Lut::generate_new_signal(user_input.amplitude, user_input.taus[3]);
   int idx = 0;
-  std::vector<uint16_t> output;
+  std::vector<double> output;
   for (auto i : s1) {
     output.push_back(
         static_cast<uint16_t>((s1[idx] + s2[idx] + s3[idx] + s4[idx]) / 4));

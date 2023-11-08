@@ -38,7 +38,9 @@ set(SOURCE
     ${SOURCE_DIR}/lut.cc 
     ${SOURCE_DIR}/mmc.cc
     ${SOURCE_DIR}/utils.cc
-    ${SOURCE_DIR}/squid.cc)
+    ${SOURCE_DIR}/squid.cc 
+    ${SOURCE_DIR}/channel.cc
+    ${SOURCE_DIR}/pixel.cc)
 
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)

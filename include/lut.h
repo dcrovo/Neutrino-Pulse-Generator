@@ -46,8 +46,8 @@ class Lut {
   double amplitude;
   std::vector<double> taus;
   int num_samples;
-  std::vector<uint16_t> lut;
-  std::vector<uint16_t> canonical_lut;
+  std::vector<double> lut;
+  std::vector<double> canonical_lut;
   double lut_tau;
   double time_step;
   double time_step_c;

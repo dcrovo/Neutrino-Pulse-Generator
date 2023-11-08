@@ -3,17 +3,22 @@
 
 #include "utils.h"
 
-class Squid{
-  public:
-  Squid(UserInput user_input);
-  ~Squid();
-  std::vector<uint32_t> apply_squid();
+class Squid {
+ public:
+  Squid();
+  Squid(UserInput user_input, double time_step, std::vector<double> mmc_signal);
+  //~Squid();
+  void apply_squid();
+  std::vector<double> get_signal();
 
-  private: 
-  double carrier_freq;
-  double carrier_amp;
-  double mod_coef;
-
+ private:
+  static int id_count_;
+  int id_;
+  double modulation_freq_;
+  double modulation_amp_;
+  double time_step_;
+  std::vector<double> signal_;
+  std::vector<double> pixel_signal_;
 };
 
 #endif
