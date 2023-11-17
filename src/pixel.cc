@@ -1,16 +1,18 @@
 #include "pixel.h"
-int Pixel::id_count_ =0;
+int Pixel::id_count_ = 0;
 
 Pixel::Pixel(UserInput user_input, Lut& lut)
-    : mmc_pos_(user_input, lut, 1), mmc_neg_(user_input, lut, -1), id_(++id_count_) {
+    : mmc_pos_(user_input, lut, 1),
+      mmc_neg_(user_input, lut, -1),
+      id_(++id_count_) {
+        std::cout<<"Pixel created wiht Id: "<<id_<<"\n";
   // Constructor initializes two Mmc objects
 }
 
 
-
 void Pixel::generate_signal() {
-  std::vector<double> signal_pos = mmc_pos_.generate_pulses();
-  std::vector<double> signal_neg = mmc_neg_.generate_pulses();
+  std::vector<double> signal_pos = mmc_pos_.generate_pulses_clock();
+  std::vector<double> signal_neg = mmc_neg_.generate_pulses_clock();
 
   // Sum the two signals
   std::vector<double> combined_signal;
@@ -21,6 +23,4 @@ void Pixel::generate_signal() {
   signal_ = combined_signal;
 }
 
-std::vector<double> Pixel::get_signal(){
-  return signal_;
-}
+std::vector<double> Pixel::get_signal() { return signal_; }

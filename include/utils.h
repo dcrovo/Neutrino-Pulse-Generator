@@ -22,6 +22,7 @@ struct UserInput{
     double simulation_window;
     double activity;
     int num_channels;
+    double clock_rate;
 
 };
 int SaveSignal(std::vector<uint16_t> signal_array, char path[]);

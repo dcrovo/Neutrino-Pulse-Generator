@@ -3,6 +3,8 @@
 
 #include <math.h>
 #include <vector>
+#include <memory>
+
 
 #include "utils.h"
 #include "lut.h"
@@ -11,10 +13,10 @@
 
 class Channel{ 
   public: 
-  Channel(UserInput user_input, Lut& lut);
-  ~Channel();
+  Channel(UserInput user_input,Lut& lut);
   void run_channel();
   std::vector<double> get_signal();
+  std::vector<double> get_pixel_signal();
   
 
   private:
@@ -22,7 +24,7 @@ class Channel{
   int id_;
   Pixel pixel_;
   Squid squid_;
-  Lut lut_;
+  Lut& lut_;
   std::vector<double> signal_;
 };
 

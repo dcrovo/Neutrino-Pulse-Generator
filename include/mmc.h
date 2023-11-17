@@ -3,22 +3,23 @@
 
 #include <math.h>
 #include <stdint.h>
-
 #include <random>
 #include <vector>
-
+#include <memory>
 #include "lut.h"
 #include "utils.h"
 
 class Mmc {
  public:
   Mmc(UserInput user_input, Lut& lut, int polarity);
-  Mmc(const Mmc& other);
+  // Mmc(const Mmc& other);
   ~Mmc();
   std::vector<double> generate_pulses();
+  std::vector<double> generate_pulses_clock();
 
  private:
   double total_time_;
+  double clock_rate_;
   double tau_;
   double activity_;
   int num_points_;
@@ -37,6 +38,8 @@ class Mmc {
   std::mt19937 generator_;
 
   void generate_time_points(void);
+  void generate_time_points_clock(void);
+
   void generate_trigger_times(void);
   void generate_trigger_times1(void);
 

@@ -6,8 +6,9 @@
 class Squid {
  public:
   Squid();
-  Squid(UserInput user_input, double time_step, std::vector<double> mmc_signal);
+  Squid(UserInput user_input, double time_step);
   //~Squid();
+  void set_pixel_signal(std::vector<double> pixel_signal);
   void apply_squid();
   std::vector<double> get_signal();
 

@@ -1,12 +1,13 @@
 #ifndef PIXEL_H_
 #define PIXEL_H_
 
+#include <memory>
 #include "mmc.h"
 
 class Pixel {
 public:
     Pixel(UserInput user_input, Lut& lut);
-
+    Pixel();
     std::vector<double> get_signal();
     void generate_signal();
 
